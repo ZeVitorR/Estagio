@@ -1,8 +1,11 @@
+body{
+    background: url("../imagens/fundoAzul.png")
+}
 
 #tabela{
     margin: 2.5% 0% 2.5% 0%;
 }
-/* #td{
+#td{
     margin-left:10%;
     margin-top:-90;
-} */
+} 
