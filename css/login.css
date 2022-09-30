@@ -46,13 +46,7 @@ body{
     color:white
 }
 
-button{
-    width: 48%;
-    height: 50px;
-    background-color: #0E51A4;
-    border-color: white;
-    transition: background-color 1s;
-}
+
 
 button:hover{
     background-color: lightblue;

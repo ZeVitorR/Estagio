@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'FonteLogin';
+    src: url("../fonte/rajdhani-bold.ttf");
+}
+
+#sair{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+button{
+    width: 6.5%;
+    height: 3%;
+    background-color: transparent;
+    border-color: transparent;
+    transition: background-color 1s;
+    margin-left: -9px;
+    margin-top: 10px;
+
+}
 body{
     background: url("../imagens/fundoAzul.png")
 }
