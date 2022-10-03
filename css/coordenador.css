@@ -3,26 +3,99 @@
     src: url("../fonte/rajdhani-bold.ttf");
 }
 
-#sair{
+/*cabeçario*/
+div#cabecario{
+    border-bottom: 3px black solid;
+}
+button#sair{
     margin-left: 0px;
     margin-top: 10px;
+    margin-bottom: 2%;
+}
+div#cabecario h1{
+    font-family: 'FonteLogin';
+    font-size: 85px;
+    left: 33%;
+    top: -1%;
+    bottom: 0%;
+    position:absolute;
+}
+div#cabecario h2{
+    font-family: 'FonteLogin';
+    font-size: 28px;
+    left: 10%;
+    top: 13%;
+    position:absolute;
+}
+div#cabecario h3{
+    font-family: 'FonteLogin';
+    font-size: 28px;
+    left: 10%;
+    top: 18%;
+    position:absolute;
+    margin-bottom: 2%;
 }
 button{
-    width: 6.5%;
-    height: 3%;
     background-color: transparent;
     border-color: transparent;
-    transition: background-color 1s;
     margin-left: -9px;
     margin-top: 10px;
-
+    margin-right: -10px;
+    cursor: pointer;
 }
+#histo{
+    left: 80%;
+    position: relative;
+}
+
+/*corpo*/
 body{
-    background: url("../imagens/fundoAzul.png")
+    background: url("../imagens/fundoAzul.png") no-repeat;
+    background-size: 100% auto;
 }
+h4{
+    font-family: 'FonteLogin';
+    font-size: 28px;
+    margin-top: 1%;
+    margin-left: 6%;
+    margin-bottom: 0%;
+}
+h5{
+    font-family: 'FonteLogin';
+    font-size: 28px;
+    margin-top: -0.5%;
+    margin-left: 6%;
+    margin-bottom: 0%;
+}
+#Busca{
+    margin-left: 60%;
+    background-color:transparent;
+    width:450px;
+  }
+button#b{
+    position: relative;
+    top:-57px;
+    left:365px;
+}
+img#busca{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+  #txtBusca{
+    float:left;
+    background-color:white;
+    font-style:italic;
+    font-size:18px;
+    border-radius:15px;
+    height:32px;
+    width:400px;
+    margin-top: -10%;
+  }
 
+/*tabela*/
 #tabela{
-    margin: 2.5% 0% 2.5% 0%;
+    margin: -1% 0% 2.5% 0%;
 }
 #td{
     margin-left:10%;
