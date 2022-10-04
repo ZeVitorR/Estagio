@@ -31,7 +31,7 @@ div#cabecario h3{
     font-family: 'FonteLogin';
     font-size: 28px;
     left: 10%;
-    top: 18%;
+    top: 17%;
     position:absolute;
     margin-bottom: 2%;
 }
@@ -45,6 +45,7 @@ button{
 }
 #histo{
     left: 80%;
+    margin-right: -10%;
     position: relative;
 }
 
@@ -57,17 +58,17 @@ h4{
     font-family: 'FonteLogin';
     font-size: 28px;
     margin-top: 1%;
-    margin-left: 6%;
+    margin-left: 10%;
     margin-bottom: 0%;
 }
 h5{
     font-family: 'FonteLogin';
     font-size: 28px;
     margin-top: -0.5%;
-    margin-left: 6%;
+    margin-left: 10%;
     margin-bottom: 0%;
 }
-#Busca{
+/* #Busca{
     margin-left: 60%;
     background-color:transparent;
     width:450px;
@@ -91,7 +92,15 @@ img#busca{
     height:32px;
     width:400px;
     margin-top: -10%;
-  }
+  } */
+#exportar{
+    position: relative;
+    left: 92%;
+    width: 75px;
+    top:20px;
+    margin-right: -10%;
+    margin-top: -90px;
+}
 
 /*tabela*/
 #tabela{
@@ -99,5 +108,12 @@ img#busca{
 }
 #td{
     margin-left:10%;
+    margin-right: -10%;
     margin-top:-90;
 } 
+#paginação{
+    position: relative;
+    top:30px;
+    left:85%;
+    margin: -2% -2% -2% -2%;
+}

@@ -1,0 +1,25 @@
+#Busca{
+    margin-left: 60%;
+    background-color:transparent;
+    width:450px;
+  }
+button#b{
+    position: relative;
+    top:-57px;
+    left:365px;
+}
+img#busca{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+  #txtBusca{
+    float:left;
+    background-color:white;
+    font-style:italic;
+    font-size:18px;
+    border-radius:15px;
+    height:32px;
+    width:400px;
+    margin-top: -10%;
+  }
