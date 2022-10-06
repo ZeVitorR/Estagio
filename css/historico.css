@@ -3,3 +3,23 @@
     src: url("../fonte/rajdhani-bold.ttf");
 }
 
+body{
+    background: url("../imagens/fundoAzul.png") no-repeat;
+    background-size: 100% auto;
+}
+
+button{
+    background-color:transparent;
+}
+
+h1{
+    font-family: 'FonteLogin';
+    font-size: 100px;
+    position: relative;
+    top:-100px;
+    left:400px;
+}
+div#Busca{
+    margin-top: -150px;
+    margin-left: 50pz;
+}
