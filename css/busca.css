@@ -2,16 +2,19 @@ div#Busca{
     margin-left: 60%;
     background-color:transparent;
     width:450px;
+    margin-right: 0%;
   }
 button#b{
     position: relative;
     top:-57px;
     left:365px;
+    margin-right: 0%;
 }
 img#busca{
     position: relative;
     top: 0px;
     left: 0px;
+    margin-right: 0%;
 }
   #txtBusca{
     float:left;
@@ -22,4 +25,5 @@ img#busca{
     height:32px;
     width:400px;
     margin-top: -10%;
+    margin-right: 0%;
   }

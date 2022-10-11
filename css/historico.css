@@ -6,10 +6,13 @@
 body{
     background: url("../imagens/fundoAzul.png") no-repeat;
     background-size: 100% auto;
+    border-right: -10px;
 }
 
 button{
     background-color:transparent;
+    border: transparent;
+    border-right:-30px;
 }
 
 h1{
@@ -18,8 +21,17 @@ h1{
     position: relative;
     top:-100px;
     left:400px;
+    margin-right: -100px;
 }
 div#Busca{
     margin-top: -150px;
-    margin-left: 50pz;
+    position: relative;
+    left: 100px;
+    margin-right: -100px;
+}
+img#busca{
+    margin-top: 10px;
+    position: relative;
+    right: 100px;
+    margin-right: 0%;
 }
