@@ -57,9 +57,8 @@ button{
 /*corpo*/
 body{
     background: url("../imagens/fundoAzul.png") no-repeat;
-    background-size: auto auto;
-    background-position: right ;
-    margin-right: 0%;
+    background-size: 100% 600px;
+    margin-right: 0px;
 }
 h4{
     font-family: 'FonteLogin';
@@ -76,38 +75,47 @@ h5{
     margin-left: 10%;
     margin-bottom: 0%;
 }
-/* #Busca{
+#Busca{
+    position: relative;
+    top: 20px;
+    margin-top: -90px;
     margin-left: 60%;
     background-color:transparent;
     width:450px;
   }
+
 button#b{
     position: relative;
-    top:-57px;
-    left:365px;
+    top:-55px;
+    left: 360px;
 }
 img#busca{
     position: relative;
     top: 0px;
     left: 0px;
+    margin-right: 0%;
 }
+
   #txtBusca{
+    position: relative;
     float:left;
-    background-color:white;
+    background-color:whitesmoke;
     font-style:italic;
     font-size:18px;
     border-radius:15px;
     height:32px;
     width:400px;
     margin-top: -10%;
-  } */
-#exportar{
+  }
+#exp{
     position: relative;
-    left: 92%;
-    width: 75px;
-    top:20px;
-    margin-right: -10%;
-    margin-top: -90px;
+    top:-70px;
+    left:1140px;
+    margin-right: 0px;
+    margin-bottom: -10px;
+}
+#exportar{   
+    width: 65px;    
 }
 
 /*tabela*/
@@ -116,7 +124,7 @@ img#busca{
 }
 #td{
     margin-left:10%;
-    margin-right: -10%;
+    margin-right: -1000px;
     margin-top:-90;
 } 
 #paginação{
