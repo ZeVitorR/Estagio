@@ -26,7 +26,7 @@ div#cabecario h2{
     font-family: 'FonteLogin';
     font-size: 28px;
     left: 10%;
-    top: 13%;
+    top: 10%;
     position:absolute;
     
 }
@@ -34,7 +34,7 @@ div#cabecario h3{
     font-family: 'FonteLogin';
     font-size: 28px;
     left: 10%;
-    top: 17%;
+    top: 14%;
     position:absolute;
     margin-bottom: 2%;
 }
@@ -57,7 +57,7 @@ button{
 /*corpo*/
 body{
     background: url("../imagens/fundoAzul.png") no-repeat;
-    background-size: 100% 600px;
+    background-size: 100% 800px;
     margin-right: 0px;
 }
 h4{
@@ -110,7 +110,7 @@ img#busca{
 #exp{
     position: relative;
     top:-70px;
-    left:1140px;
+    left:90%;
     margin-right: 0px;
     margin-bottom: -10px;
 }
@@ -120,7 +120,7 @@ img#busca{
 
 /*tabela*/
 #tabela{
-    margin: -1% 0% 2.5% 0%;
+    margin: 3% -2% 2.5% -2%;
 }
 #td{
     margin-left:10%;
